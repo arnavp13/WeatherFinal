@@ -11,7 +11,7 @@ const port = process.env.PORT || 4000;
 
 const { MongoClient, ServerApiVersion } = require("mongodb");
 const uri =
-  "mongodb+srv://opal:WQl5LSUMYj2lxyjZ@cluster0.bn5qnxy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://weather:3vWMpfKJoPe7f7rl@cluster0.bn5qnxy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 const client = new MongoClient(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
