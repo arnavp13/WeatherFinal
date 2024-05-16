@@ -7,6 +7,7 @@ const bodyParser = require("body-parser");
 const axios = require("axios");
 require("dotenv").config();
 const bcrypt = require("bcrypt");
+const port = process.env.PORT || 4000;
 
 const { MongoClient, ServerApiVersion } = require("mongodb");
 const uri =
@@ -144,3 +145,7 @@ app.post("/weather", async (req, res) => {
     }
   }
 });
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
