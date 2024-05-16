@@ -7,12 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "axios": "^1.6.8",
+    "ejs": "^3.1.5",
     "express": "^4.17.1",
-    "mongoose": "^5.10.9",
-    "ejs": "^3.1.5"
+    "mongoose": "^5.10.9"
   },
   "author": "",
   "license": "ISC",
-  "description": "Submitted by: Shiv Patel (directory id: shiv2266) Group Members: Shiv Patel (shiv2266), Arnav Pal (apal) App Description: Allow users to identify weather in a specified city. YouTube Video Link: https://www.youtube.com/MyAmazingAPP APIs: Weatherstack (https://weatherstack.com/) Contact Email: shiv2266@terpmail.umd.edu",
-  "devDependencies": {}
+  "description": "Submitted by: Shiv Patel (directory id: shiv2266) Group Members: Shiv Patel (shiv2266), Arnav Pal (apal) App Description: Allow users to identify weather in a specified city. YouTube Video Link: https://www.youtube.com/MyAmazingAPP APIs: Weatherstack (https://weatherstack.com/) Contact Email: shiv2266@terpmail.umd.edu"
 }
