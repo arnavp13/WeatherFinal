@@ -12,7 +12,7 @@ const port = process.env.PORT || 4000;
 const { MongoClient, ServerApiVersion } = require("mongodb");
 
 // Use environment variable for MongoDB URI
-const uri = process.env.MONGODB_URI || "mongodb+srv://opal:1ROO1hNpAFZL3qlo@cluster0.bn5qnxy.mongodb.net/<database>?retryWrites=true&w=majority&ssl=true";
+const uri = process.env.MONGODB_URI || "mongodb+srv://opal:1ROO1hNpAFZL3qlo@cluster0.bn5qnxy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 const client = new MongoClient(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
